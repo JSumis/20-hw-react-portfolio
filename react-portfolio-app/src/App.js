@@ -1,39 +1,48 @@
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import logo from './logo.svg';
-import './App.css';
-import About from './components/About'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Project from './components/Project'
+import "./App.css";
+import Portfolio from "./components/Portfolio";
+import Resume from "/components/Resume";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <nav>
-          <Link to="/">About</Link>
-          <Link to="/Contact">Contact</Link>
-          <Link to="/Resume">Resume</Link>
-          <Link to="/Project">Project</Link>
-        </nav>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-        </Switch>
-        <Route path="/news">
-          <News />
-        </Route>
-        <Route path="/weather">
-          <Weather />
-        </Route>
-        <Route path="/sports">
-          <Sports />
-        </Route>
-      </div>
-    </Router>
+    <div className="app">
+      <Router>
+        <div>
+          <nav className="navbar">
+            <Link className="navlinks" to="/">
+              Home
+            </Link>
+            <Link className="navlinks" to="/portfolio">
+              Portfolio
+            </Link>
+            <Link className="navlinks" to="/contact">
+              Contact
+            </Link>
+            <Link className="navlinks" to="/resume">
+              Resume
+            </Link>
+          </nav>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/portfolio">
+              <Portfolio />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/resume">
+              <Resume />
+            </Route>
+          </Switch>
+        </div>
+        <Footer />
+      </Router>
+    </div>
   );
 }
-
 export default App;
