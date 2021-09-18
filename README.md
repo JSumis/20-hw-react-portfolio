@@ -11,7 +11,7 @@
 
  ## Deployment
 
-https://github.com/JSumis/20-hw-react-portfolio
+https://jsumis.github.io/20-hw-react-portfolio
 
 https://glacial-brushlands-63800.herokuapp.com/
 
