@@ -1,29 +1,24 @@
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import "./App.css";
-import Portfolio from "./components/Portfolio";
-import Resume from "/components/Resume";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import './App.css';
+
+import Portfolio from './components/Portfolio'
+import Resume from './components/Resume'
+import Contact from './components/Contact'
+import Home from './components/Home'
+import Footer from './components/Footer'
+
+
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Router>
         <div>
           <nav className="navbar">
-            <Link className="navlinks" to="/">
-              Home
-            </Link>
-            <Link className="navlinks" to="/portfolio">
-              Portfolio
-            </Link>
-            <Link className="navlinks" to="/contact">
-              Contact
-            </Link>
-            <Link className="navlinks" to="/resume">
-              Resume
-            </Link>
+            <Link className="navlinks" to="/">Home</Link>
+            <Link className="navlinks" to="/portfolio">Portfolio</Link>
+            <Link className="navlinks" to="/contact">Contact</Link>
+            <Link className="navlinks" to="/resume">Resume</Link>
           </nav>
           <Switch>
             <Route exact path="/">
@@ -40,9 +35,10 @@ function App() {
             </Route>
           </Switch>
         </div>
-        <Footer />
+      <Footer />
       </Router>
     </div>
   );
 }
+
 export default App;
