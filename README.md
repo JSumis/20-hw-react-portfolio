@@ -11,9 +11,9 @@
 
  ## Deployment
 
-https://jsumis.github.io/20-hw-react-portfolio
+https://jsumis.github.io/
 
-https://glacial-brushlands-63800.herokuapp.com/
+https://fathomless-inlet-18595.herokuapp.com/ UPDATED LINK
 
 
 
