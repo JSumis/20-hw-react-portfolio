@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/20-hw-react-portfolio/static/css/main.3a200ea7.chunk.css",
+    "main.js": "/20-hw-react-portfolio/static/js/main.0077ce41.chunk.js",
+    "main.js.map": "/20-hw-react-portfolio/static/js/main.0077ce41.chunk.js.map",
+    "runtime-main.js": "/20-hw-react-portfolio/static/js/runtime-main.445cab28.js",
+    "runtime-main.js.map": "/20-hw-react-portfolio/static/js/runtime-main.445cab28.js.map",
+    "static/js/2.50a2f5d7.chunk.js": "/20-hw-react-portfolio/static/js/2.50a2f5d7.chunk.js",
+    "static/js/2.50a2f5d7.chunk.js.map": "/20-hw-react-portfolio/static/js/2.50a2f5d7.chunk.js.map",
+    "static/js/3.b6343c91.chunk.js": "/20-hw-react-portfolio/static/js/3.b6343c91.chunk.js",
+    "static/js/3.b6343c91.chunk.js.map": "/20-hw-react-portfolio/static/js/3.b6343c91.chunk.js.map",
+    "index.html": "/20-hw-react-portfolio/index.html",
+    "static/css/main.3a200ea7.chunk.css.map": "/20-hw-react-portfolio/static/css/main.3a200ea7.chunk.css.map",
+    "static/js/2.50a2f5d7.chunk.js.LICENSE.txt": "/20-hw-react-portfolio/static/js/2.50a2f5d7.chunk.js.LICENSE.txt",
+    "static/media/Bootcamp-Box-Screencap.jpg": "/20-hw-react-portfolio/static/media/Bootcamp-Box-Screencap.1d0ca302.jpg",
+    "static/media/Calendae-weekview.png": "/20-hw-react-portfolio/static/media/Calendae-weekview.3cd0f80b.png",
+    "static/media/password-generator.jpg": "/20-hw-react-portfolio/static/media/password-generator.6561bdb8.jpg",
+    "static/media/workday-scheduler.jpg": "/20-hw-react-portfolio/static/media/workday-scheduler.574e57e3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.445cab28.js",
+    "static/js/2.50a2f5d7.chunk.js",
+    "static/css/main.3a200ea7.chunk.css",
+    "static/js/main.0077ce41.chunk.js"
+  ]
+}
